@@ -1,0 +1,42 @@
+<ion-view title="Team Matches" id="page3" class=" ">
+    <ion-content padding="true" class="has-header">
+        <form id="teamMatches-form5" class="list ">
+            <label class="item item-input" name="searchmatches">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="search" placeholder="Search for available matches">
+            </label>
+        </form>
+        <a ui-sref="menu.createNewMatch" id="teamMatches-button5" class=" button button-dark  button-block ">Create a New Match</a>
+        <h2 id="teamMatches-heading2" style="color:#FFFFFF;text-align:center;" class=" ">Current Matches</h2>
+        <div class="list card " id="teamMatches-card22">
+            <ion-item class="item-icon-left  " id="teamMatches-list-item7">
+                <i class="icon ion-ios-gear-outline"></i>TriTeam All Stars</ion-item>
+            <div class=" item item-image">
+                <img src="img/liRT8eIhQatY0ltLluf0_kobe_bryant.jpg" width="100%" height="auto" style="display: block; margin-left: auto; margin-right: auto;">
+            </div>
+            <form id="teamMatches-form6" class="list ">
+                <label class="item item-select " id="teamMatches-select2" name="levels">
+                    <span class="input-label">Level of Difficulty:</span>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </label>
+                <label class="item item-input " id="teamMatches-textarea6" name="timeOfWorkout">
+                    <span class="input-label">Time of Workout:</span><textarea placeholder="04:34:12"></textarea>
+                </label>
+                <label class="item item-input " id="teamMatches-textarea7" name="energyproduced">
+                    <span class="input-label">Energy Produced:</span><textarea placeholder="300 watts"></textarea>
+                </label>
+            </form>
+        </div>
+    </ion-content>
+</ion-view>
